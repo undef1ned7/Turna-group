@@ -1,0 +1,56 @@
+.about {
+  margin-top: 60px;
+  padding-top: 20px;
+  background-color: #f8f8f8;
+  &__background {
+    padding: 90px 0;
+    background-image: url("../../assets/Home/About/back.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  // background-size: cover;
+  // height: 1000px;
+  .row {
+    row-gap: 30px;
+  }
+  // .col-6 {
+  //   flex: 1;
+  // }
+  // .row:before,
+  // .row:after {
+  //   content: "";
+  //   flex-basis: 0;
+  //   flex-grow: 1;
+  // }
+  &__title {
+    color: #232323;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  &__content {
+    background: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    min-height: 100%;
+    &-text {
+      color: #656565;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0%;
+    }
+    &-btn {
+      box-sizing: border-box;
+      border: 1px solid rgb(198, 198, 198);
+      padding: 8px 7px 5px 6px;
+      background-color: transparent;
+      cursor: auto;
+    }
+  }
+}

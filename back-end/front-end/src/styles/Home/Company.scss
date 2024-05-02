@@ -1,0 +1,52 @@
+.company {
+  padding: 120px 0;
+  &__img {
+    width: 78%;
+  }
+  .col-9 {
+    display: flex;
+    justify-content: end;
+  }
+  &__nav {
+    &-title {
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 55px;
+      letter-spacing: 0%;
+      text-align: left;
+      span {
+        color: #dd4053;
+      }
+    }
+    &-text {
+      color: #898989;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+  &__content {
+    margin-top: 65px;
+    &-title {
+      color: #262626;
+      font-size: 60px;
+      font-weight: 500;
+      line-height: 55px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    &-text {
+      margin-top: 25px;
+      border-top: 1px solid #2323234d;
+      padding-top: 20px;
+      color: #656565;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+}

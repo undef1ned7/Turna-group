@@ -1,0 +1,139 @@
+.header {
+  &__top {
+    padding: 17px 0 11px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-social {
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      // a, svg {
+      //   color: ;
+      // }
+    }
+    &-img {
+      width: 100%;
+    }
+    &-link {
+      // width: 50%;
+      width: 156px;
+    }
+    &-number {
+      display: flex;
+      align-items: center;
+      div {
+        margin-right: 10px;
+        h3 {
+          color: rgb(57, 57, 57);
+          font-family: "Montserrat";
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 21px;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+      }
+    }
+    &-maistra {
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      background: rgb(239, 243, 246);
+      &-title {
+        padding: 17px 0 18px 20px;
+        color: rgb(55, 55, 55);
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      &-btn {
+        border-radius: 2px;
+        background: rgb(221, 64, 83);
+        padding: 17px;
+        border: none;
+        margin-left: 20px;
+      }
+    }
+    &-tours {
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      background: rgb(239, 243, 246);
+      &-btn {
+        padding: 17px;
+        border-radius: 2px;
+        border: none;
+        margin-left: 20px;
+        background: rgb(74, 210, 149);
+      }
+    }
+  }
+  &__line {
+    background: rgb(226, 226, 226);
+    width: 1px;
+    height: 40px;
+  }
+  &__bottom {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding-top: 29px;
+    max-width: 996px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+    &-menu {
+      display: flex;
+      column-gap: 8px;
+      &-text {
+        color: rgb(97, 97, 97);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      &-text.active {
+        color: red;
+      }
+    }
+  }
+  &__dropdown {
+    display: none;
+  }
+  &__bottom-dropdown.active &__dropdown {
+    transition: all 0.3s;
+    display: block;
+    margin-top: 20px;
+    border-top: 3px solid rgb(221, 64, 83) !important;
+    position: absolute;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(221, 221, 221);
+    background: rgb(255, 255, 255);
+    &-list {
+      padding: 10px 12px 10px 15px;
+      color: rgb(97, 97, 97);
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 0%;
+      text-align: left;
+      border-bottom: 1px solid rgb(208, 208, 208);
+    }
+    &-list:first-child {
+      color: rgb(221, 64, 83);
+    }
+  }
+  &__nav {
+    display: none;
+  }
+}

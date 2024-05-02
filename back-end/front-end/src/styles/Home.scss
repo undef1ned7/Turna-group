@@ -1,0 +1,20 @@
+.slider {
+  // height: 500px;
+  // &__background {
+  //   height: 500px;
+  //   background: url("../assets/Home/slider.png");
+  // }
+}
+.slick-track {
+  width: auto !important;
+}
+.news {
+  padding: 95px 0;
+  background-color: #f8f8f8;
+}
+@import "./Home/Tour.scss";
+@import "./Home/Best.scss";
+@import "./Home/Current.scss";
+@import "./Home/Blog.scss";
+@import "./Home/About.scss";
+@import "./Home/Company.scss";
