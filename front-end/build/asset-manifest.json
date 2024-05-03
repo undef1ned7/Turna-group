@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60825b16.css",
+    "main.js": "/static/js/main.c1b91514.js",
+    "static/media/footer.png": "/static/media/footer.986913abaf56b109a655.png",
+    "static/media/image.png": "/static/media/image.cc13fa3ae00fb8a768e6.png",
+    "static/media/back.svg": "/static/media/back.544d97734ebde273516e.svg",
+    "static/media/question.png": "/static/media/question.eb366bd9447426e6ed70.png",
+    "static/media/logo.png": "/static/media/logo.6b8eb18c7f08ea9c37e1.png",
+    "static/media/logo.svg": "/static/media/logo.bdc472c3ace8b89c021e6dfe089b3160.svg",
+    "static/media/phone.svg": "/static/media/phone.5571cd36c845c796215d08d76874f103.svg",
+    "static/media/book.svg": "/static/media/book.73674d60e76bcabaabba87b0e5e799f0.svg",
+    "static/media/instagram.svg": "/static/media/instagram.fa590d3038ea3fa05deab6f2bd0dae6b.svg",
+    "static/media/calendar.svg": "/static/media/calendar.6ba321cf2c0fa54c541ebec053202247.svg",
+    "static/media/logo2.svg": "/static/media/logo2.f6228cf8d4dde3313482fa7d044583ac.svg",
+    "static/media/eye.svg": "/static/media/eye.4660d8f4a8771a3f6014a555a7a52c84.svg",
+    "static/media/checked.svg": "/static/media/checked.985a3fae29b7577b082526914bfb3123.svg",
+    "static/media/youtube.svg": "/static/media/youtube.ea6dc9eff371d741362c8196450ac7d9.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.064bb48840784a8c5af90105e866e914.svg",
+    "static/media/search.svg": "/static/media/search.21d4d62b1ef5717ce0951c6738a42ea7.svg",
+    "static/media/searchBot.svg": "/static/media/searchBot.f5b7d2770d5c811c47fd59ccf74223c7.svg",
+    "static/media/logo3.svg": "/static/media/logo3.4a34f0adc7135791d32bfbf2f9d72cb6.svg",
+    "static/media/star.svg": "/static/media/star.262048ebb6fc8e5af5930e580ba5e1dc.svg",
+    "static/media/arrowBottom.svg": "/static/media/arrowBottom.01f7bc9b48d6b90a43454d0c3a300d9f.svg",
+    "static/media/arrowTop.svg": "/static/media/arrowTop.f92fe8cf62b55720dc0c6e8b79492b53.svg",
+    "static/media/arrow.svg": "/static/media/arrow.06f6fd1912e08f9305cdb93c2a4a4f3a.svg",
+    "main.60825b16.css.map": "/static/css/main.60825b16.css.map",
+    "main.c1b91514.js.map": "/static/js/main.c1b91514.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60825b16.css",
+    "static/js/main.c1b91514.js"
+  ]
+}
